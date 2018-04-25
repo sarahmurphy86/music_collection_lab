@@ -18,12 +18,14 @@ album1 = Album.new({
   'title' => 'Gold',
   'genre' => 'Pop'
   })
+album1.save()
 
 album2 = Album.new({
   'artist_id' => artist2.id,
   'title' => 'Dolly Parton Hits',
   'genre' => 'Country'
   })
+album2.save()
 
 binding.pry
 nil
